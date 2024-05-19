@@ -5,7 +5,7 @@ from config import BOT_NAME
 from strings.filters import command
 from pyrogram import Client
 from pyrogram.types import Message
-from AlinaXIQ import app
+from ZeMusic import app
 
 @app.on_message(command("زخرفه"))
 async def zahrafa(c: Client, m: Message):
